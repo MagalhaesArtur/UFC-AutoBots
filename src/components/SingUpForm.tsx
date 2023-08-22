@@ -10,8 +10,6 @@ export function SingUpForm() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  const [rememberMe, setRememberMe] = useState(false);
-
   async function handleSubmitLogin(event: FormEvent) {
     if (email == "" || password == "") {
     } else {
@@ -19,6 +17,7 @@ export function SingUpForm() {
       setLoading(true);
     }
   }
+  confirmPassword;
 
   return (
     <div
