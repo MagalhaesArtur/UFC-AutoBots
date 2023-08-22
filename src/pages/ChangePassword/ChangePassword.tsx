@@ -7,7 +7,8 @@ export const ChangePassword = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-
+  setConfirmPassword;
+  setPassword;
   useEffect(() => {
     setTimeout(() => {
       setLoadingPreloader(false);

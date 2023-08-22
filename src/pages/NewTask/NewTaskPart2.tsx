@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { BotProps } from "../../utils/interfaces";
 import { motion } from "framer-motion";
 import { CircularProgress } from "@mui/material";
