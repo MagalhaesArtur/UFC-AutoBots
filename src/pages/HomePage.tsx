@@ -3,25 +3,32 @@ import { useEffect, useState } from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Preloader from "../components/Preloader";
 
-function UserHomePage() {
+function UserHomePage(props: { pathname: string }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
+
   useEffect(() => {
-    setTimeout(() => {
+    if (props.pathname == "/home/google/newtask" || "/home/google/newtask-2") {
       setLoading(false);
-    }, 4000);
+    } else {
+      setLoading(true);
+
+      setTimeout(() => {
+        setLoading(false);
+      }, 3000);
+    }
   }, []);
   return (
     <>
       {loading ? (
         <Preloader />
       ) : (
-        <div className="max-w-[100vw]  min-h-screen flex bg-[#130f40]">
+        <div className="max-w-[100vw] sm:mb-0 mb-20  min-h-screen  flex bg-[#130f40]">
           <section
             onClick={() => {
               setIsSidebarOpen(true);
             }}
-            className="min-h-screen"
+            className="sm:min-h-screen"
           >
             <Sidebar
               isSidebarOpen={isSidebarOpen}

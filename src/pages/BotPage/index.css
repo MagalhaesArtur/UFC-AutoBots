@@ -20,3 +20,24 @@ table button:hover {
   transition-property: all;
   color: #0edb1f;
 }
+#submitButton {
+  background: linear-gradient(to right, #027922 0%, #4da26c 79%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 70%;
+  height: 3rem;
+  border-color: transparent;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+#submitButton:hover {
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  box-shadow: rgba(234, 231, 231, 0.35) 0px 5px 15px;
+}

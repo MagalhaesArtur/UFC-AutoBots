@@ -31,7 +31,7 @@ export function HomePageContent() {
             </span>
           </div>
 
-          <section className="flex mt-12  gap-10">
+          <section className="flex sm:flex-row flex-col sm:items-start items-center mt-12  gap-10">
             {bots.map((bot) => (
               <Bot name={bot.name} />
             ))}
