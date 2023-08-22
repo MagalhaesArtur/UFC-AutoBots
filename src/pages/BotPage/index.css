@@ -1,0 +1,22 @@
+tbody tr:nth-child(even) {
+  background-color: #244ca9; /* Cor de fundo para itens pares */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #10307b; /* Cor de fundo para itens ímpares */
+}
+td {
+  line-height: 3;
+}
+table button {
+  color: #2ca135;
+  text-decoration: underline;
+  transition-duration: 300ms;
+  transition-property: all;
+}
+
+table button:hover {
+  transition-duration: 300ms;
+  transition-property: all;
+  color: #0edb1f;
+}

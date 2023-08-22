@@ -1,0 +1,19 @@
+#bot {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    135deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(40, 44, 99, 1) 0%,
+    rgba(37, 37, 194, 1) 100%,
+    rgba(9, 177, 245, 1) 100%
+  );
+  transition-duration: 300ms;
+  transition-property: all;
+}
+#bot:hover {
+  transition-duration: 300ms;
+  transition-property: all;
+  cursor: pointer;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
