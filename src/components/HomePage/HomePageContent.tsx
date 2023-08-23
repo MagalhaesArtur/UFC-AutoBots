@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Bot } from "../Bot/Bot";
-import Preloader from "../Preloader";
+import Preloader from "../Preloader/Preloader";
 
 export function HomePageContent() {
   const bots = [{ name: "Google" }, { name: "Linkedin" }];

@@ -1,7 +1,7 @@
 import { CircularProgress, TextField } from "@mui/material";
 import { FormEvent, useEffect, useState } from "react";
 import "./index.css";
-import Preloader from "../components/Preloader";
+import Preloader from "../components/Preloader/Preloader";
 export function RecoverPasswordPage() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);

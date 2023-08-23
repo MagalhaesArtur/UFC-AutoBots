@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Sidebar from "../components/Sidebar/Sidebar";
-import Preloader from "../components/Preloader";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Preloader from "../../components/Preloader/Preloader";
 
 function UserHomePage(props: { pathname: string }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

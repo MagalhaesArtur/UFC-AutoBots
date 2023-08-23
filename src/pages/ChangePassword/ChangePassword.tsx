@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Preloader from "../../components/Preloader";
+import Preloader from "../../components/Preloader/Preloader";
 import { CircularProgress, TextField } from "@mui/material";
 
 export const ChangePassword = () => {

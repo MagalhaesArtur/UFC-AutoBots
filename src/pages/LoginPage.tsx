@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import botImg from "../assets/bot.svg";
 import { LoginForm } from "../components/Login/LoginForm";
-import Preloader from "../components/Preloader";
+import Preloader from "../components/Preloader/Preloader";
 
 export function LoginPage() {
   const [loading, setLoading] = useState(true);

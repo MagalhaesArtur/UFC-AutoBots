@@ -1,7 +1,7 @@
 import { LoginPage } from "../pages/LoginPage";
 import { SingUpPage } from "../pages/SingUpPage";
 import { RecoverPasswordPage } from "../pages/RecoverPasswordPage";
-import HomePage from "../pages/HomePage";
+import HomePage from "../pages/HomePage/HomePage";
 import { HomePageContent } from "../components/HomePage/HomePageContent";
 import { BotPage } from "../pages/BotPage/BotPage";
 import { Details } from "../pages/DetailsPage/Details";

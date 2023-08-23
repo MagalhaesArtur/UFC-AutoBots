@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { BotProps } from "../../utils/interfaces";
-import Preloader from "../../components/Preloader";
+import Preloader from "../../components/Preloader/Preloader";
 
 export const Details = ({ name }: BotProps) => {
   const [loading, setLoading] = useState(true);

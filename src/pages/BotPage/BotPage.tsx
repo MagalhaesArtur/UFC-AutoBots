@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { BotProps } from "../../utils/interfaces";
 import "./index.css";
-import Preloader from "../../components/Preloader";
+import Preloader from "../../components/Preloader/Preloader";
 import { useNavigate } from "react-router-dom";
 import { CircularProgress } from "@mui/material";
 
