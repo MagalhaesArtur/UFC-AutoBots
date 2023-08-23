@@ -27,7 +27,7 @@ export function RecoverPasswordPage() {
       ) : (
         <div className=" flex items-center w-screen h-screen bg-[#130f40] justify-center">
           <div id="form" className="w-[600px] h-[800px] rounded-lg p-4 ">
-            <div className="  flex-col hidden md:flex h-full justify-center items-center">
+            <div className="  flex-col  md:flex h-full justify-center items-center">
               <div className="text-3xl text-white font-semibold  w-[50%]">
                 Recupere sua senha
               </div>
