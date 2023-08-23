@@ -10,7 +10,7 @@ Projeto que foi requerido para a vaga de Dev Bolsista Front-End.
 Acesse a aplicação em funcionamento!
 Link: [https://ufc-auto-bots.vercel.app/login]
 <hr/>
-Video de apresentação: [https://www.youtube.com/watch?v=HsyqN-Jb1pI&ab_channel=Jo%C3%A3oArtur]
+Video de apresentação: [https://youtu.be/QRY7nd0ISUI]
 
 ## Fotos da aplicação:
 
