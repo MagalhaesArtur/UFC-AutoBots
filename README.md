@@ -1,27 +1,48 @@
-# React + TypeScript + Vite
+<h1 align="center" > UFC AutoBots </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr/>
 
-Currently, two official plugins are available:
+Projeto que foi requerido para a vaga de Dev Bolsista Front-End.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+Acesse a aplicação em funcionamento!
+Link: [https://ufc-auto-bots.vercel.app/login]
+<hr/>
+Video de apresentação: [https://www.youtube.com/watch?v=HsyqN-Jb1pI&ab_channel=Jo%C3%A3oArtur]
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Fotos da aplicação:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<div>
+    <h3>Login Page:</h3>
+    <img src="https://img001.prntscr.com/file/img001/wdroT3SqRjGSXB_vwa7qlA.png" width="99%" alt="">
+    <h3>Home Page:</h3>
+    <p style="display: flex; margin-top: 5px;" >
+        <img src="https://img001.prntscr.com/file/img001/a2HBaQraSpitr2N-gKMKQg.png" width="50%" alt="">
+        <img src="https://img001.prntscr.com/file/img001/AN5eqPyQTBSkM3ZoUzDjAw.png" width="15%" alt="">
+    </p>
+   <h3>Tela de histórico de execuções:</h3>
+    <p style="display: flex; margin-top: 5px;" >
+        <img src="https://img001.prntscr.com/file/img001/rAOfjGPyQRyK0wKS0GNGTw.png" width="100%" alt="">
+        </p>
+    <hr/>
+</div>
+
+
+
+## Tecnologias Utilizadas:
+
+✔️ ReactJS
+✔️ Typescript
+✔️ Vite
+✔️ TailwindCSS
+✔️ MaterialUI
+✔️ phosphor-react
+✔️ Framer-motion
+
+
+<br><br>
+
+<hr>
+<p>Made with 💜 by João Artur 👋 See my <a href="https://www.linkedin.com/in/magalhesartur/">Linkedin</a></p>
